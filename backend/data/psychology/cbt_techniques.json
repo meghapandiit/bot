@@ -1,0 +1,249 @@
+{
+  "self_reflection": {
+    "low": {
+      "technique": "Gentle self-reflection",
+      "category": "reflection",
+      "description": "Take a quiet moment to notice what’s going on inside you. There’s no need to fix anything—just observe what thoughts or feelings are present."
+    },
+    "medium": {
+      "technique": "Naming emotions",
+      "category": "emotional awareness",
+      "description": "Pause and gently name what you’re feeling—confused, heavy, restless, or unsure. Naming emotions can bring a little clarity."
+    },
+    "high": {
+      "technique": "Grounding before reflection",
+      "category": "grounding",
+      "description": "When emotions feel intense, bring attention to your breath or body first. Feeling steady helps reflection feel safer."
+    }
+  },
+
+  "anxiety_support": {
+    "low": {
+      "technique": "Slow breathing",
+      "category": "breathing",
+      "description": "Slow, steady breathing can help calm the body when anxiety feels mild or just beginning."
+    },
+    "medium": {
+      "technique": "5-4-3-2-1 grounding",
+      "category": "grounding",
+      "description": "Use your senses to gently anchor yourself in the present moment when anxious thoughts start looping."
+    },
+    "high": {
+      "technique": "Grounding with reassurance",
+      "category": "grounding",
+      "description": "When anxiety feels overwhelming, focus on calming the body first and seek support if needed."
+    }
+  },
+
+  "burnout": {
+    "low": {
+      "technique": "Micro-rest awareness",
+      "category": "reflection",
+      "description": "Notice small moments where you could rest or pause, even briefly, during the day."
+    },
+    "medium": {
+      "technique": "Breaking things down",
+      "category": "behavioral activation",
+      "description": "When everything feels too much, focusing on one small step at a time can reduce pressure."
+    },
+    "high": {
+      "technique": "Burnout validation and rest",
+      "category": "support",
+      "description": "Feeling exhausted doesn’t mean you’ve failed. Acknowledging burnout and seeking rest or support can help."
+    }
+  },
+
+  "mood_swings": {
+    "low": {
+      "technique": "Mood awareness",
+      "category": "emotional awareness",
+      "description": "Notice shifts in your mood without judging them. Awareness can prevent automatic reactions."
+    },
+    "medium": {
+      "technique": "Pause before reacting",
+      "category": "emotion regulation",
+      "description": "Take a few slow breaths, name what you’re feeling, and choose how to respond instead of reacting quickly."
+    },
+    "high": {
+      "technique": "Emotional grounding",
+      "category": "support",
+      "description": "Strong emotional swings can feel destabilizing. Grounding and external support can help."
+    }
+  },
+
+  "loneliness": {
+    "low": {
+      "technique": "Loneliness validation",
+      "category": "emotional validation",
+      "description": "Feeling lonely doesn’t mean there’s something wrong with you. Acknowledging it can soften its intensity."
+    },
+    "medium": {
+      "technique": "Self-compassion reflection",
+      "category": "self-compassion",
+      "description": "Gently remind yourself that loneliness doesn’t define your worth or value."
+    },
+    "high": {
+      "technique": "Support encouragement",
+      "category": "support",
+      "description": "When loneliness feels heavy, reaching out to someone you trust can help."
+    }
+  },
+
+  "emotional_numbness": {
+    "low": {
+      "technique": "Noticing numbness",
+      "category": "emotional awareness",
+      "description": "Feeling numb is a common response to emotional overload. Simply noticing it is enough for now."
+    },
+    "medium": {
+      "technique": "Gentle sensory grounding",
+      "category": "grounding",
+      "description": "Try focusing on physical sensations—your feet on the floor or your breath—to reconnect with the present moment."
+    },
+    "high": {
+      "technique": "Support and grounding",
+      "category": "support",
+      "description": "Persistent numbness can be a sign you need support. Grounding and human connection can help."
+    }
+  },
+
+  "overwhelm_confusion": {
+    "low": {
+      "technique": "Mental pause",
+      "category": "grounding",
+      "description": "When things feel unclear, pause and focus on just this moment rather than the whole situation."
+    },
+    "medium": {
+      "technique": "One-thing focus",
+      "category": "reflection",
+      "description": "Choose one small thing to focus on right now. Clarity often comes step by step."
+    },
+    "high": {
+      "technique": "Stabilization and support",
+      "category": "support",
+      "description": "When confusion feels overwhelming, slowing down and seeking support can help."
+    }
+  },
+
+  "relationship_conflict": {
+    "low": {
+      "technique": "Perspective reflection",
+      "category": "reflection",
+      "description": "Reflect on what the conflict stirred up emotionally, without blaming yourself or others."
+    },
+    "medium": {
+      "technique": "Emotion-focused pause",
+      "category": "emotion regulation",
+      "description": "Identify the feeling beneath the conflict—hurt, fear, or frustration—before responding."
+    },
+    "high": {
+      "technique": "Grounding after conflict",
+      "category": "support",
+      "description": "Strong emotions after conflict are normal. Grounding and support can help settle things."
+    }
+  },
+
+  "academic_stress": {
+    "low": {
+      "technique": "Stress normalization",
+      "category": "validation",
+      "description": "Academic pressure is common and doesn’t define your intelligence or worth."
+    },
+    "medium": {
+      "technique": "Task prioritization",
+      "category": "behavioral activation",
+      "description": "Breaking work into smaller priorities can reduce overwhelm."
+    },
+    "high": {
+      "technique": "Stabilization and guidance",
+      "category": "support",
+      "description": "When academic stress feels unmanageable, grounding and guidance can help."
+    }
+  },
+
+  "work_stress": {
+    "low": {
+      "technique": "Workload awareness",
+      "category": "reflection",
+      "description": "Notice which parts of work feel draining versus manageable, without self-judgment."
+    },
+    "medium": {
+      "technique": "Boundary reflection",
+      "category": "reflection",
+      "description": "Consider where your energy is being stretched and where small boundaries could help."
+    },
+    "high": {
+      "technique": "Burnout support",
+      "category": "support",
+      "description": "Ongoing work stress benefits from rest and external support."
+    }
+  },
+
+  "financial_stress": {
+    "low": {
+      "technique": "Financial stress acknowledgment",
+      "category": "validation",
+      "description": "Money stress is heavy and common. It doesn’t reflect personal failure."
+    },
+    "medium": {
+      "technique": "Control vs worry reflection",
+      "category": "reflection",
+      "description": "Gently separate what you can control right now from what you can’t."
+    },
+    "high": {
+      "technique": "Stabilization and support",
+      "category": "support",
+      "description": "Severe financial stress can feel overwhelming. Grounding and support can help."
+    }
+  },
+
+  "general_support": {
+    "low": {
+      "technique": "Open emotional check-in",
+      "category": "presence",
+      "description": "Create space for the user to share more, without introducing exercises yet."
+    },
+    "medium": {
+      "technique": "Thought noticing",
+      "category": "awareness",
+      "description": "Notice thoughts as they come and go, without treating them as facts."
+    },
+    "high": {
+      "technique": "Stabilization and reassurance",
+      "category": "support",
+      "description": "Focus on emotional safety and calming first."
+    }
+  },
+
+  "greeting": {
+    "low": {
+      "technique": "Warm check-in",
+      "category": "engagement",
+      "description": "Greet the user warmly and invite them to share how they are feeling today."
+    },
+    "medium": {
+      "technique": "Open emotional check-in",
+      "category": "emotional awareness",
+      "description": "Gently invite the user to share what’s been on their mind."
+    },
+    "high": {
+      "technique": "Supportive presence",
+      "category": "support",
+      "description": "Respond with calm reassurance and emotional availability."
+    }
+  },
+
+
+  "crisis": {
+    "medium": {
+      "technique": "Safety check-in",
+      "category": "support",
+      "description": "I’m really sorry you’re going through this. You don’t have to face it alone. Reaching out to someone you trust can help."
+    },
+    "high": {
+      "technique": "Immediate crisis support",
+      "category": "crisis",
+      "description": "I’m really sorry you’re feeling this much pain. Your safety matters most right now. Please contact a crisis helpline or emergency service immediately."
+    }
+  }
+}

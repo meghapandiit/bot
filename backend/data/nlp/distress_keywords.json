@@ -1,0 +1,37 @@
+{
+  "high": [
+    "i want to die",
+    "i don't want to live",
+    "kill myself",
+    "end my life",
+    "self harm",
+    "cut myself",
+    "panic attack",
+    "i can't take it anymore",
+    "i feel unsafe",
+    "marna chahta hoon",
+    "zinda nahi rehna"
+  ],
+
+  "medium": [
+    "overwhelmed",
+    "very anxious",
+    "emotionally tired",
+    "pressure is too much",
+    "frustrated",
+    "roona aa raha",
+    "bahut pressure hai",
+    "thak chuka hoon"
+  ],
+
+  "low": [
+    "ok",
+    "okay",
+    "hmm",
+    "idk",
+    "not sure",
+    "bas aise hi",
+    "theek hai",
+    "normal"
+  ]
+}

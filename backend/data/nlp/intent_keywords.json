@@ -1,0 +1,96 @@
+{
+  "general_support": [
+    "feeling low",
+    "sad",
+    "down",
+    "heavy",
+    "bad day",
+    "mann nahi lag raha",
+    "thoda off"
+  ],
+
+  "anxiety_support": [
+    "anxious",
+    "anxiety",
+    "panic",
+    "overthinking",
+    "ghabrahat",
+    "bechain",
+    "heart racing"
+  ],
+
+  "burnout": [
+    "burnt out",
+    "exhausted",
+    "no energy",
+    "mentally tired",
+    "kaam se thak gaya"
+  ],
+
+  "loneliness": [
+    "alone",
+    "lonely",
+    "akela",
+    "koi nahi hai",
+    "isolated",
+    "sab door lag rahe"
+  ],
+
+  "relationship_conflict": [
+    "fight",
+    "argument",
+    "breakup",
+    "parents fight",
+    "friends se problem",
+    "jagda"
+  ],
+
+  "academic_stress": [
+    "exam",
+    "padhai",
+    "college stress",
+    "marks tension",
+    "result ka darr"
+  ],
+
+  "work_stress": [
+    "office",
+    "boss",
+    "deadline",
+    "job tension",
+    "kaam ka pressure"
+  ],
+
+  "financial_stress": [
+    "no money",
+    "broke",
+    "fees",
+    "paisa nahi",
+    "saving nahi ho rahi"
+  ],
+
+  "confusion": [
+    "idk",
+    "samajh nahi aa raha",
+    "confused",
+    "kya kru",
+    "lost"
+  ],
+
+  "seeking_support": [
+    "need help",
+    "talk to someone",
+    "connect me",
+    "therapist",
+    "mentor"
+  ],
+
+  "greeting": [
+    "hi",
+    "hello",
+    "hey",
+    "hii",
+    "kaise ho",
+    "kya haal"
+  ]
+}
