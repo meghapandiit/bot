@@ -1,9 +1,11 @@
+from typing import Optional
 from pydantic import BaseModel
-from typing import Optional, List
 
 class ChatRequest(BaseModel):
-    message: str
     session_id: str
+    message: str
+    paid_user: Optional[bool] = False
+
 
 class ChatResponse(BaseModel):
     reply: str

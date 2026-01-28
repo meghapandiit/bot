@@ -4,3 +4,5 @@ python-dotenv
 openai
 redis
 openai>=1.0.0
+slowapi
+razorpay

@@ -1,25 +1,35 @@
 import os
+import json
+import redis
 
 REDIS_URL = os.getenv("REDIS_URL")
 
-# fallback memory
+# fallback in-memory store (dev mode)
 _memory = {}
 
+# create redis client once
+_r = redis.from_url(REDIS_URL, decode_responses=True) if REDIS_URL else None
+
+
 def get_session(session_id: str) -> dict:
-    if not REDIS_URL:
+    # fallback mode
+    if not _r:
         return _memory.get(session_id, {})
 
-    import redis
-    r = redis.from_url(REDIS_URL, decode_responses=True)
-    data = r.get(session_id)
-    return eval(data) if data else {}
+    data = _r.get(session_id)
+    if not data:
+        return {}
+
+    try:
+        return json.loads(data)
+    except Exception:
+        return {}
 
 
 def set_session(session_id: str, session: dict):
-    if not REDIS_URL:
+    # fallback mode
+    if not _r:
         _memory[session_id] = session
         return
 
-    import redis
-    r = redis.from_url(REDIS_URL, decode_responses=True)
-    r.set(session_id, str(session))
+    _r.set(session_id, json.dumps(session))
